@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files (x86)\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add --dev @babel/core babel-loader @babel/present-env
+
+PATH: 
+  C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\nodejs;C:\Program Files\Redis\;"C:\Users\Taran\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.6;C:\Users\Taran\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.6\Lib;C:\Users\Taran\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.6\DLLs;C:\Users\Taran\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.6\Lib\lib-tk;";C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Gradle\gradle-6.0\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramFiles\MongoDB\Server\4.0\bin;C:\Program Files\PostgreSQL\12\bin;C:\Hugo\bin;C:\Program Files\MongoDB\Server\4.0\bin\;C:\Program Files (x86)\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Taran\scoop\shims;C:\Users\Taran\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Taran\AppData\Local\Programs\Python\Python38-32\;C:\Hugo\bin;C:\Users\Taran\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Taran\AppData\Roaming\npm
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  13.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/@babel%2fpresent-env: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66056:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140665:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141637:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141559:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1201:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "CRUD_using_MERN",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Taran",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
